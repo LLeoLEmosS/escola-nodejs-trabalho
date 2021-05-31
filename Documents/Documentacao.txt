@@ -1,0 +1,28 @@
+Trabalho de sistemas distribuído – API com NodeJS
+
+"/" ==> rota principal
+•	essa rota e usado para 
+
+"/cadastro" ==> rota cadastro
+•	Cadastrar alunos
+•	Cadastrar professores
+
+"/cadastro /cadastro-de-aluno " ==> rota cadastro
+•	Nome completo
+•	Disciplina
+•	Curso
+•	Turnos
+
+"/cadastro /cadastro-de-professor" ==> rota cadastro 
+•	Nome completo
+•	Disciplina
+•	Curso
+•	Turnos
+"/professor" ==> rota cadastro 
+•	Lançar nota
+•	Falta de aula
+
+"/aluno" ==> rota cadastro 
+•	Exibir notas
+•	Faltas
+

@@ -23,10 +23,11 @@ app.use('/cadastro-de-professsor', rotaProfessor);
 app.use('/cadastro-de-aluno', rotaAluno);
 
 app.get('/', (req, res) => {
-    res.send('APIs com nodeJs');
+    res.send('<h1>APIs com nodeJs</h1>');
 });
+
 app.post('/', (req, res) => {
-    res.send('APIs com nodeJs');
+    res.send('<h1>APIs com nodeJs</h1>');
 });
 
 module.exports = app;

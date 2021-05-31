@@ -13,7 +13,6 @@ rotaLogin.post('/', (req, res) => {
   } else {
       res.render('index');
   }
-
 });
 
 rotaLogin.get("/", (req, res, next) => {
@@ -35,7 +34,6 @@ rotaLogin.post('/:login/:senha', (req, res) => {
   } else {
       res.render('index');
   }
-
 });
 
 rotaLogin.get("/:login/:senha", (req, res, next) => {
