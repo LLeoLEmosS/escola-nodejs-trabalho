@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(204, 78, 55);
+}
+
+div {
+    align-items: center;
+}
+
+h2 {
+    color: white;
+    
+}
+input {
+    font-size: 20px;
+}
+
+input #botao {
+    height: 100%;
+}
